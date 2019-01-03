@@ -18,7 +18,7 @@ public class Rectangle
 	{
 		return this.lengthOfRectangle+this.breadthOfRectangle;	
 	}
-	public double Area()
+	public int Area()
 	{
 		return this.lengthOfRectangle*this.breadthOfRectangle;	
 	}
