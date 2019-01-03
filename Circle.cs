@@ -1,8 +1,8 @@
 public class Circle
 {
 	public int radius;
-	public int AreaCircle()
+	public double AreaCircle()
 	{
-		return (int)(Math.PI*radius*radius);
+		return Math.PI*radius*radius;
 	}
 }
